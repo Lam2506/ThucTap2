@@ -413,8 +413,11 @@
     .youtube:hover{
         background-color: rgba(239, 25, 25, 0.8);
     }
-  @media (max-width: 760px) {
+  @media (max-width: 780px) {
     /* Container */
+    .container{
+        width: 100%;
+    }
     /* tạo main nằm ở giữa  */
     .main-content{
         display: flex;
@@ -458,8 +461,7 @@
         gap: 10px;
     }
     .product-card {
-        width: 180px;
-        height: 300px;
+        aspect-ratio: 3 / 5; /* tự giữ tỷ lệ khung hình */
         border: 1px solid #ccc;
         padding: 10px;
         border-radius: 8px;
@@ -491,7 +493,7 @@
         display: none;
     }
     .footer-container{
-        /* tôi muốn chuyển thành cột */
+        /*chuyển thành cột */
         display: flex;
         flex-direction: column;
         width: 100%;
