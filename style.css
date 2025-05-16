@@ -508,29 +508,4 @@
     }
 
   }
-  @media (max-width: 1200px) {
-    /* Container */
-    
-    /* .top-header {
-        height: 50px;
-        background: var(--primary-color);
-        padding: 10px 0;
-        border-bottom: 1px solid #e0e0e0;
-    }
-    .main-header{
-        width: 100%;
-    }
-    /* Search Box */
-    /* .search-box {
-        flex: 0 0 30%;
-        display: flex;
-        gap: 0px;
-    }
-    .contact-icons {
-        flex: 0 0 150px;
-        display: flex;
-        justify-content: flex-end;
-        gap: 20px;
-    } */
-
-  }
+ 
