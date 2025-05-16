@@ -461,16 +461,16 @@
         gap: 10px;
     }
     .product-card {
-        width: 150px;
-        border: 1px solid #ccc;
+        width: 120px;
+        border: 1px solid #c3b5b5;
         padding: 10px;
         border-radius: 8px;
         text-align: center;
         background-color: #fff;
     }
     .product-card img {
-        width: 120px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
         border-radius: 4px;
     }
 
