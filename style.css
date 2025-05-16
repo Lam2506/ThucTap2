@@ -457,11 +457,11 @@
     .product-list {
         
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
         gap: 10px;
     }
     .product-card {
-        aspect-ratio: 3 / 5; /* tự giữ tỷ lệ khung hình */
+        width: 160px;
         border: 1px solid #ccc;
         padding: 10px;
         border-radius: 8px;
