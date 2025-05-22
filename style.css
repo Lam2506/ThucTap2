@@ -594,8 +594,9 @@
         display: block;
     }
     .product-list {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 5px;
     }
     .product-card {
         width: 160px;
@@ -609,7 +610,7 @@
     }
     .product-card img {
 
-        width: 140px;
+        width: 90%;
         height: 120px;
         border-radius: 4px;
         margin-right: 40px;
